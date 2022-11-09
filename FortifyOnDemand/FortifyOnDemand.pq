@@ -23,6 +23,7 @@ shared FortifyOnDemand.Contents = () =>
 
 // Data Source Kind description
 FortifyOnDemand = [
+    TestConnection = (dataSourcePath) => {"FortifyOnDemand.Contents"},
     Authentication = [
         Key = [
             KeyLabel = Extension.LoadString("keyLabel"),
